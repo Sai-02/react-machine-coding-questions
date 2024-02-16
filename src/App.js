@@ -1,4 +1,4 @@
-import Problem1 from "./components/Problem1/Problem1";
+import Problem1 from "./pages/Problem1/Problem1";
 
 function App() {
   return (

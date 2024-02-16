@@ -1,5 +1,5 @@
 import React from "react";
-import Solution from "./Solution/Solution";
+import Solution from "./components/Solution";
 
 const Problem1 = () => {
   return (
