@@ -10,6 +10,9 @@ const Home = () => {
         <Link to={URL_PATHS.PROBLEM1} className="hover:underline">
           Problem 1
         </Link>
+        <Link to={URL_PATHS.PROBLEM2} className="hover:underline">
+          Problem 2 (Stop Watch)
+        </Link>
       </div>
     </div>
   );
