@@ -4,4 +4,5 @@ export const URL_PATHS = {
   PROBLEM2: "/Problem2",
   PROBLEM3: "/Problem3",
   PROBLEM4: "/Problem4",
+  PROBLEM5: "/Problem5",
 };

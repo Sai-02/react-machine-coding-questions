@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Problem2 from "./pages/Problem2/Problem2";
 import Problem3 from "./pages/Problem3/Problem3";
 import Problem4 from "./pages/Problem4/Problem4";
+import Problem5 from "./pages/Problem5/Problem5";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
           <Route path={URL_PATHS.PROBLEM2} element={<Problem2 />} />
           <Route path={URL_PATHS.PROBLEM3} element={<Problem3 />} />
           <Route path={URL_PATHS.PROBLEM4} element={<Problem4 />} />
+          <Route path={URL_PATHS.PROBLEM5} element={<Problem5 />} />
         </Routes>
       </div>
     </BrowserRouter>
