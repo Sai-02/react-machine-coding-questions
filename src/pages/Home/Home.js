@@ -22,6 +22,10 @@ const Home = () => {
         <Link to={URL_PATHS.PROBLEM5} className="hover:underline">
           Problem 5 (Star Rating)
         </Link>
+
+        <Link to={URL_PATHS.PROBLEM6} className="hover:underline">
+          Problem 6 (Kanban Board)
+        </Link>
       </div>
     </div>
   );

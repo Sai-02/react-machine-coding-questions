@@ -6,6 +6,7 @@ import Problem2 from "./pages/Problem2/Problem2";
 import Problem3 from "./pages/Problem3/Problem3";
 import Problem4 from "./pages/Problem4/Problem4";
 import Problem5 from "./pages/Problem5/Problem5";
+import Problem6 from "./pages/Problem6/Problem6";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
           <Route path={URL_PATHS.PROBLEM3} element={<Problem3 />} />
           <Route path={URL_PATHS.PROBLEM4} element={<Problem4 />} />
           <Route path={URL_PATHS.PROBLEM5} element={<Problem5 />} />
+          <Route path={URL_PATHS.PROBLEM6} element={<Problem6 />} />
         </Routes>
       </div>
     </BrowserRouter>
